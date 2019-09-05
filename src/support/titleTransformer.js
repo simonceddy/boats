@@ -1,25 +1,16 @@
-import React from 'react';
+const keys = ['b', 'o', 'a', 't', 's'];
 
-export default function transformTitle(title) {
-  const bits = title.split(' ').map((bit, id) => {
-    const first = bit.charAt(0);
-    const rest = bit.replace(/^(B|O|A|T|S)/, '');
-    const key = id + 1;
+export function removeFirstLetter(word) {
+  return word.replace(/^(B|O|A|T|S)/, '');
+}
 
-    return () => (
-      <span key={key}>
-        <span className="text-5xl uppercase text-red-900">
-          {first}
-          {rest === '' ? null : (
-            <span className="text-4xl lowercase text-black">
-              {rest}
-            </span>
-          ) }
-          {key >= 5 ? null : ' '}
-        </span>
-      </span>
-    );
+export function prepareTitle(title) {
+  const bits = title.split(' ');
+  if (bits.length !== 5) return false;
+  const words = {};
+  bits.map((bit, id) => {
+    words[keys[id]] = removeFirstLetter(bit);
+    return true;
   });
-
-  return bits;
+  return words;
 }

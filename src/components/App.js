@@ -4,7 +4,7 @@ import Boats from '../containers/Boats';
 function App() {
   console.log('r');
   return (
-    <div className="h-full flex flex-col justify-center items-center">
+    <div className="h-full flex flex-col">
       <Boats />
     </div>
   );
