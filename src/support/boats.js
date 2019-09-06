@@ -68,4 +68,6 @@ module.exports = [
   'Buying Only Authentic Trespassing Signs',
   'Busy Organising A Tribal Sacrifice',
   'Bathing Over At The Spa',
+  'Busting Out A Tailwhip Superman',
+  'Buckley\'s On A Telephone, Screaming'
 ];

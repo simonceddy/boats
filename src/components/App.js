@@ -2,7 +2,7 @@ import React from 'react';
 import Boats from '../containers/Boats';
 
 function App() {
-  console.log('r');
+  // console.log('r');
   return (
     <div className="h-full flex flex-col">
       <Boats />
