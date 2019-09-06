@@ -29,7 +29,7 @@ module.exports = [
   'Barack Obama And The Senate',
   'Brigade Of Android Temp Staff',
   'Beer On A Tap, Sir',
-  'Binge On Avacado Tasty Snacks',
+  // 'Binge On Avacado Tasty Snacks',
   'Ben\'s Olives Almost Taste Sinister',
   'Believe Our Absolutely True Stories',
   'Block Out All That Sound',
@@ -46,5 +46,13 @@ module.exports = [
   'Buying Offal Already Tasting Suspicious',
   'Blindly Offering A Thousand Shillings',
   'Barry\'s On At The Scg',
-  'Baritone Or Alto Tenor Saxaphone'
+  'Baritone Or Alto Tenor Saxaphone',
+  'Bradman\'s Over Already Totals Sixty',
+  'Brilliant Offense Adds To Score',
+  'Bite On A Tasty Snack',
+  'Boss Overworks A Tired Secretary',
+  'Barge Over And Through Stuff',
+  'Because Of Adam, This Sucks',
+  'Busting Ollies At The Skatepark',
+  'Buddy Offloads A Torpedo Supergoal'
 ];

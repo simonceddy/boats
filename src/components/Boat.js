@@ -5,7 +5,7 @@ function Boat({ onClick }) {
   return (
     <div className="w-full flex flex-row justify-center">
       <div
-        className="bg-white border-8 border-black p-0 sm:w-5/12 w-4/5"
+        className="bg-white border-8 border-black p-0 sm:w-5/12 w-3/5 max-h-full"
         onClick={onClick}
         role="presentation"
       >

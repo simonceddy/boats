@@ -3,6 +3,8 @@ import Boat from '../components/Boat';
 import TitleBox from '../components/TitleBox';
 import boatsText from '../support/boats';
 
+console.log(boatsText.length);
+
 const getBoats = () => boatsText[Math.floor(Math.random() * boatsText.length)];
 
 function Boats() {

@@ -9,7 +9,7 @@ function TitleBox({ title = '', onClick }) {
   return (
     <div
       onClick={onClick}
-      className="text-4xl italic w-full sm:w-auto font-bold cursor-pointer flex flex-col text-left sm:flex-row sm:text-center px-2 flex-wrap justify-center"
+      className="text-4xl italic w-full sm:w-auto font-bold cursor-pointer flex flex-col text-left sm:flex-row sm:text-center px-2 sm:flex-wrap justify-center"
       role="presentation"
     >
       <Title letter="b">{b}</Title>
