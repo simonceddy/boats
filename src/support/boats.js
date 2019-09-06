@@ -69,5 +69,12 @@ module.exports = [
   'Busy Organising A Tribal Sacrifice',
   'Bathing Over At The Spa',
   'Busting Out A Tailwhip Superman',
-  'Buckley\'s On A Telephone, Screaming'
+  'Buckley\'s On A Telephone, Screaming',
+  'Briefing Official Announces The Situation',
+  'Best Of All Time Space',
+  'Bob\'s Occupation Allows Travelling Spontaneously',
+  'Bill Opened A Triffid Shop',
+  'Bosuns Orbiting Around The Supercollider',
+  'Brilliant Oboe And Timpani Solo',
+  'Blatantly Obvious Answer To Situation'
 ];
