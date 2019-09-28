@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
     "react-scripts": "3.1.1",
     "tailwindcss": "^1.1.2"
   },
@@ -33,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^6.3.0",
+    "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
